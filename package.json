@@ -1,0 +1,21 @@
+{
+  "name": "EthWallet",
+  "version": "0.0.1",
+  "description": "Key & Wallet Generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Key@TheChee",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "elliptic": "^6.4.1",
+    "file-system": "^2.2.2",
+    "js-sha3": "^0.8.0",
+    "tar": "^4.4.6",
+    "web3": "^1.0.0-beta.36",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
